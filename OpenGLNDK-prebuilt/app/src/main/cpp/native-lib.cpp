@@ -191,7 +191,7 @@ Java_com_lighthouse3d_android_openglndk_1prebuilt_GLES3JNILib_init(JNIEnv* env, 
     LOGD("VSL init done");
 
 #ifdef __VSL_MODEL_LOADING__
-    model.load("teapot.obj");
+    model.load("office-guy.obj");
     LOGD("Teapot loaded");
     model.addCubeMapTexture(0,
                             "CM/posx.jpg",
